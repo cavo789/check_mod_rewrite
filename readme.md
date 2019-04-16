@@ -24,7 +24,7 @@ You'll get immediately the result.
 * `mod_rewrite is enabled on your server`: congrats, mod_rewrite is well enabled
 * `mod_rewrite is NOT enabled on your server`: now, you are sure, mod_rewrite is not loaded and thus will not work. This means that URL rewriting to get "nice" URLs won't work (in term of Joomla: you'll still see `index.php` in your URLs).
 
----
+------
 
 Afin de s'assurer que `mod_rewrite` soit bien activé sur votre hébergement, parfois `phpinfo` n'est pas assez précis : la présence de `mod_rewrite` n'est pas listée dans la liste des modules chargés mais semble (si l'on doit croire l'hébergeur) bien chargée.
 
@@ -45,3 +45,13 @@ Vous obtiendrez immédiatement le résultat.
 
 * `mod_rewrite est activé sur votre serveur` : félicitations, `mod_rewrite` est bien activé
 * `mod_rewrite n'est PAS activé sur votre serveur` : maintenant, vous en êtes certain, `mod_rewrite` n'est pas chargé et ne fonctionnera donc pas. Cela signifie que la réécriture d'URL pour obtenir de "belles" URLs ne fonctionnera pas (en termes de Joomla : vous verrez toujours `index.php` dans vos URLs).
+
+------
+
+In case of success:
+
+![Success](.images/success.png)
+
+In case of failure:
+
+![Failure](.images/failure.png)
