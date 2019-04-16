@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^.*$ mod_rewrite_installed.php
+</IfModule>
+
+DirectoryIndex mod_rewrite_not_installed.php
