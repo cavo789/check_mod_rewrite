@@ -1,6 +1,6 @@
 # Check mod_rewrite
 
-![Banner](.images/banner.png)
+![Banner](./banner.svg)
 
 **French text below**
 
